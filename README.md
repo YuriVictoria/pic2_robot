@@ -1,5 +1,7 @@
-## Installation
-Open terminal and Install the following,
+## Instalação
+
+No terminal, faça as seguintes instações:
+
 ```bash
 sudo apt install ros-jazzy-ros2-control
 sudo apt install ros-jazzy-ros2-controllers
@@ -9,6 +11,40 @@ sudo apt install ros-jazzy-joint-state-publisher-gui
 sudo apt install ros-jazzy-joint-state-broadcaster
 sudo apt install ros-jazzy-diff-drive-controller
 sudo apt install libserial-dev
+```
+---
+
+## 🛠️ Compilando o Workspace
+
+No terminal, certifique-se de estar na raiz do seu workspace (`ros2_ws`) e execute o comando de compilação:
+
+```bash
+colcon build --symlink-install
+
+```
+
+*(**Dica:** O argumento `--symlink-install` cria atalhos para os seus scripts Python e arquivos de launch. Isso significa que você pode editar esses arquivos e testá-los na hora, sem precisar recompilar o projeto!)*
+
+Após a compilação terminar com sucesso, é **obrigatório** carregar o ambiente do seu workspace no terminal para que o ROS 2 reconheça os seus pacotes:
+
+```bash
+source install/setup.bash
+
+```
+
+### 🧹 Limpando o Workspace (Troubleshooting)
+
+O ROS 2 guarda arquivos de cache para acelerar a compilação. Se você deletar pacotes, alterar arquivos estruturais (como `CMakeLists.txt` ou `package.xml`) ou enfrentar erros inexplicáveis ao compilar, a melhor solução é fazer uma **instalação limpa**.
+
+Para limpar o workspace, apague as pastas geradas pelo colcon e compile novamente:
+
+```bash
+# Apaga as pastas de compilação antigas
+rm -rf build/ install/ log/
+
+# Compila tudo do zero novamente
+colcon build --symlink-install
+
 ```
 
 ---
