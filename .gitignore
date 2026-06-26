@@ -1,0 +1,14 @@
+# Ignorar pastas geradas pelo colcon (ROS 2)
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Ignorar pastas temporárias do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos compilados do Arduino (caso use ferramentas de linha de comando)
+*.elf
+*.hex
+*.bin
+build/
