@@ -1,0 +1,54 @@
+[1.137s] Invoking command in '/home/robot/pic2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/rplidar_ros -- -j4 -l4
+[1.979s] [  5%] Built target rplidar_client
+[1.996s] [ 52%] Built target rplidar_node
+[2.028s] [100%] Built target rplidar_composition
+[2.112s] Invoked command in '/home/robot/pic2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/rplidar_ros -- -j4 -l4
+[2.200s] Invoking command in '/home/robot/pic2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/rplidar_ros
+[2.260s] -- Install configuration: ""
+[2.267s] -- Execute custom install script
+[2.284s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.285s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[2.287s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[2.289s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[2.293s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[2.297s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.300s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[2.304s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[2.307s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[2.310s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[2.317s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[2.321s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[2.323s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[2.325s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[2.328s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[2.329s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[2.331s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[2.333s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[2.335s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[2.340s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[2.346s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[2.350s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[2.351s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[2.354s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[2.362s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.364s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.365s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.366s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.367s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.373s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.376s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.377s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.382s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.383s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.384s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.387s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.389s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.390s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.391s] -- Symlinking: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.460s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.462s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.464s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.467s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.470s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.471s] -- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.480s] Invoked command in '/home/robot/pic2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/rplidar_ros

@@ -1,0 +1,53 @@
+[1.081s] Invoking command in '/home/robot/pic2/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/diffdrive_arduino -- -j4 -l4
+[1.553s] [100%] Built target diffdrive_arduino
+[1.636s] Invoked command in '/home/robot/pic2/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/diffdrive_arduino -- -j4 -l4
+[1.705s] Invoking command in '/home/robot/pic2/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/diffdrive_arduino
+[1.765s] -- Install configuration: ""
+[1.767s] -- Execute custom install script
+[1.770s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[1.771s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[1.773s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[1.774s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[1.775s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[1.777s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[1.779s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[1.781s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[1.782s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[1.783s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[1.784s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/lidar.xacro
+[1.785s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[1.786s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[1.789s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/bringup_launch.py
+[1.790s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[1.791s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/load_map_demo.launch.py
+[1.792s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/localization_launch.py
+[1.794s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/navigation_launch.py
+[1.795s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/slam_launch.py
+[1.797s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[1.798s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/map_server_params.yaml
+[1.799s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/nav2_params.yaml
+[1.801s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/nav2_params1.yaml
+[1.802s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[1.803s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[1.805s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[1.807s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[1.808s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[1.809s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[1.811s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[1.812s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[1.813s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[1.815s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[1.817s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[1.817s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[1.818s] -- Symlinking: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[1.889s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[1.890s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[1.890s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[1.894s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.895s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[1.897s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[1.901s] -- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[1.901s] -- Up-to-date: /home/robot/pic2/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[1.904s] -- Up-to-date: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[1.906s] -- Up-to-date: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[1.916s] Invoked command in '/home/robot/pic2/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/diffdrive_arduino

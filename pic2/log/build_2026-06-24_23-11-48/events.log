@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.001606] (converter_pkg) JobQueued: {'identifier': 'converter_pkg', 'dependencies': OrderedDict()}
+[0.002567] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002784] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003076] (converter_pkg) JobStarted: {'identifier': 'converter_pkg'}
+[0.071522] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.099278] (-) TimerEvent: {}
+[0.102644] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.199462] (-) TimerEvent: {}
+[0.300085] (-) TimerEvent: {}
+[0.400660] (-) TimerEvent: {}
+[0.501344] (-) TimerEvent: {}
+[0.601991] (-) TimerEvent: {}
+[0.702642] (-) TimerEvent: {}
+[0.803252] (-) TimerEvent: {}
+[0.903811] (-) TimerEvent: {}
+[1.004360] (-) TimerEvent: {}
+[1.105128] (-) TimerEvent: {}
+[1.187594] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.195730] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.198473] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/pic2/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/robot/pic2/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.0.0.100 38428 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/pic2/install/rplidar_ros/lib:/home/robot/pic2/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robot/pic2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/pic2/build/diffdrive_arduino', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.100 38428 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/pic2/build/converter_pkg:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.208652] (-) TimerEvent: {}
+[1.222645] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.232051] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.233245] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/pic2/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/robot/pic2/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.0.0.100 38428 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/pic2/install/rplidar_ros/lib:/home/robot/pic2/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robot/pic2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/pic2/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.100 38428 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/pic2/build/converter_pkg:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.308883] (-) TimerEvent: {}
+[1.409630] (-) TimerEvent: {}
+[1.510284] (-) TimerEvent: {}
+[1.610909] (-) TimerEvent: {}
+[1.712048] (-) TimerEvent: {}
+[1.812879] (-) TimerEvent: {}
+[1.913535] (-) TimerEvent: {}
+[2.014337] (-) TimerEvent: {}
+[2.081888] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[2.098065] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_node\n'}
+[2.107081] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[2.115815] (-) TimerEvent: {}
+[2.130400] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[2.214497] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.215927] (-) TimerEvent: {}
+[2.228365] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[2.301872] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/pic2/build/rplidar_ros'], 'cwd': '/home/robot/pic2/build/rplidar_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.0.0.100 38428 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/pic2/install/rplidar_ros/lib:/home/robot/pic2/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robot/pic2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/pic2/build/rplidar_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.100 38428 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/pic2/build/converter_pkg:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy'}), 'shell': False}
+[2.316123] (-) TimerEvent: {}
+[2.362720] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.369795] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.386188] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[2.387292] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[2.389748] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[2.391654] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[2.395851] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[2.399420] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[2.402911] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[2.406503] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[2.409960] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[2.413029] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[2.416273] (-) TimerEvent: {}
+[2.419714] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[2.423795] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[2.425520] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[2.427281] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[2.430094] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[2.431882] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[2.433512] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[2.435938] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[2.437624] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[2.442358] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[2.448761] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[2.452463] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[2.454003] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[2.456567] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[2.464184] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[2.466567] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[2.467634] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.468668] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[2.470121] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[2.475409] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[2.478788] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[2.479913] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[2.484634] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[2.485258] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[2.486560] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[2.489468] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[2.491460] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[2.492887] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[2.493896] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[2.516454] (-) TimerEvent: {}
+[2.562290] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[2.565063] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.566985] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.569470] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[2.572622] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[2.573977] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[2.581642] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.616639] (-) TimerEvent: {}
+[2.717506] (-) TimerEvent: {}
+[2.734148] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[2.817706] (-) TimerEvent: {}
+[2.918389] (-) TimerEvent: {}
+[3.019116] (-) TimerEvent: {}
+[3.119830] (-) TimerEvent: {}
+[3.220416] (-) TimerEvent: {}
+[3.321032] (-) TimerEvent: {}
+[3.421604] (-) TimerEvent: {}
+[3.522199] (-) TimerEvent: {}
+[3.622791] (-) TimerEvent: {}
+[3.723464] (-) TimerEvent: {}
+[3.824444] (-) TimerEvent: {}
+[3.925065] (-) TimerEvent: {}
+[4.025799] (-) TimerEvent: {}
+[4.126761] (-) TimerEvent: {}
+[4.227315] (-) TimerEvent: {}
+[4.327982] (-) TimerEvent: {}
+[4.428991] (-) TimerEvent: {}
+[4.529571] (-) TimerEvent: {}
+[4.630168] (-) TimerEvent: {}
+[4.730769] (-) TimerEvent: {}
+[4.831366] (-) TimerEvent: {}
+[4.932163] (-) TimerEvent: {}
+[5.032912] (-) TimerEvent: {}
+[5.133515] (-) TimerEvent: {}
+[5.234320] (-) TimerEvent: {}
+[5.335454] (-) TimerEvent: {}
+[5.436409] (-) TimerEvent: {}
+[5.537045] (-) TimerEvent: {}
+[5.637634] (-) TimerEvent: {}
+[5.738250] (-) TimerEvent: {}
+[5.838860] (-) TimerEvent: {}
+[5.939461] (-) TimerEvent: {}
+[6.040132] (-) TimerEvent: {}
+[6.140785] (-) TimerEvent: {}
+[6.241435] (-) TimerEvent: {}
+[6.342191] (-) TimerEvent: {}
+[6.442807] (-) TimerEvent: {}
+[6.543500] (-) TimerEvent: {}
+[6.644183] (-) TimerEvent: {}
+[6.744824] (-) TimerEvent: {}
+[6.845572] (-) TimerEvent: {}
+[6.946208] (-) TimerEvent: {}
+[7.046866] (-) TimerEvent: {}
+[7.147742] (-) TimerEvent: {}
+[7.248526] (-) TimerEvent: {}
+[7.349845] (-) TimerEvent: {}
+[7.367753] (converter_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robot/pic2/build/converter_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/robot/pic2/build/converter_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.0.0.100 38428 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/pic2/install/rplidar_ros/lib:/home/robot/pic2/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robot/pic2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/pic2/build/converter_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.100 38428 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/pic2/build/converter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/home/robot/pic2/build/converter_pkg:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.450056] (-) TimerEvent: {}
+[7.550841] (-) TimerEvent: {}
+[7.651650] (-) TimerEvent: {}
+[7.752486] (-) TimerEvent: {}
+[7.853162] (-) TimerEvent: {}
+[7.953857] (-) TimerEvent: {}
+[8.054485] (-) TimerEvent: {}
+[8.155198] (-) TimerEvent: {}
+[8.255839] (-) TimerEvent: {}
+[8.356443] (-) TimerEvent: {}
+[8.457111] (-) TimerEvent: {}
+[8.557845] (-) TimerEvent: {}
+[8.658512] (-) TimerEvent: {}
+[8.759223] (-) TimerEvent: {}
+[8.859931] (-) TimerEvent: {}
+[8.960557] (-) TimerEvent: {}
+[9.061325] (-) TimerEvent: {}
+[9.162044] (-) TimerEvent: {}
+[9.262766] (-) TimerEvent: {}
+[9.363446] (-) TimerEvent: {}
+[9.464306] (-) TimerEvent: {}
+[9.565174] (-) TimerEvent: {}
+[9.665818] (-) TimerEvent: {}
+[9.711514] (converter_pkg) StdoutLine: {'line': b'running develop\n'}
+[9.765993] (-) TimerEvent: {}
+[9.866638] (-) TimerEvent: {}
+[9.967352] (-) TimerEvent: {}
+[10.068082] (-) TimerEvent: {}
+[10.168773] (-) TimerEvent: {}
+[10.269463] (-) TimerEvent: {}
+[10.370227] (-) TimerEvent: {}
+[10.470816] (-) TimerEvent: {}
+[10.571444] (-) TimerEvent: {}
+[10.672170] (-) TimerEvent: {}
+[10.772803] (-) TimerEvent: {}
+[10.873426] (-) TimerEvent: {}
+[10.974103] (-) TimerEvent: {}
+[11.074804] (-) TimerEvent: {}
+[11.175404] (-) TimerEvent: {}
+[11.276058] (-) TimerEvent: {}
+[11.376832] (-) TimerEvent: {}
+[11.433583] (converter_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.477036] (-) TimerEvent: {}
+[11.577812] (-) TimerEvent: {}
+[11.597853] (converter_pkg) StdoutLine: {'line': b'writing converter_pkg.egg-info/PKG-INFO\n'}
+[11.599195] (converter_pkg) StdoutLine: {'line': b'writing dependency_links to converter_pkg.egg-info/dependency_links.txt\n'}
+[11.603120] (converter_pkg) StdoutLine: {'line': b'writing entry points to converter_pkg.egg-info/entry_points.txt\n'}
+[11.604102] (converter_pkg) StdoutLine: {'line': b'writing requirements to converter_pkg.egg-info/requires.txt\n'}
+[11.605000] (converter_pkg) StdoutLine: {'line': b'writing top-level names to converter_pkg.egg-info/top_level.txt\n'}
+[11.677982] (-) TimerEvent: {}
+[11.778654] (-) TimerEvent: {}
+[11.879325] (-) TimerEvent: {}
+[11.897702] (converter_pkg) StdoutLine: {'line': b"reading manifest file 'converter_pkg.egg-info/SOURCES.txt'\n"}
+[11.904480] (converter_pkg) StdoutLine: {'line': b"writing manifest file 'converter_pkg.egg-info/SOURCES.txt'\n"}
+[11.979503] (-) TimerEvent: {}
+[12.053801] (converter_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[12.054744] (converter_pkg) StdoutLine: {'line': b'Creating /home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages/converter-pkg.egg-link (link to .)\n'}
+[12.057848] (converter_pkg) StdoutLine: {'line': b'Installing nav2_cmd_to_arduino script to /home/robot/pic2/install/converter_pkg/lib/converter_pkg\n'}
+[12.059563] (converter_pkg) StdoutLine: {'line': b'\n'}
+[12.060324] (converter_pkg) StdoutLine: {'line': b'Installed /home/robot/pic2/build/converter_pkg\n'}
+[12.060858] (converter_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[12.079844] (-) TimerEvent: {}
+[12.180899] (-) TimerEvent: {}
+[12.232925] (converter_pkg) CommandEnded: {'returncode': 0}
+[12.281253] (-) TimerEvent: {}
+[12.283563] (converter_pkg) JobEnded: {'identifier': 'converter_pkg', 'rc': 0}
+[12.381450] (-) TimerEvent: {}
+[12.482128] (-) TimerEvent: {}
+[12.582827] (-) TimerEvent: {}
+[12.683479] (-) TimerEvent: {}
+[12.784182] (-) TimerEvent: {}
+[12.884809] (-) TimerEvent: {}
+[12.985412] (-) TimerEvent: {}
+[13.086075] (-) TimerEvent: {}
+[13.186768] (-) TimerEvent: {}
+[13.287363] (-) TimerEvent: {}
+[13.388074] (-) TimerEvent: {}
+[13.488746] (-) TimerEvent: {}
+[13.589367] (-) TimerEvent: {}
+[13.690142] (-) TimerEvent: {}
+[13.790796] (-) TimerEvent: {}
+[13.891406] (-) TimerEvent: {}
+[13.992092] (-) TimerEvent: {}
+[14.092814] (-) TimerEvent: {}
+[14.193440] (-) TimerEvent: {}
+[14.294117] (-) TimerEvent: {}
+[14.394815] (-) TimerEvent: {}
+[14.495439] (-) TimerEvent: {}
+[14.596133] (-) TimerEvent: {}
+[14.696832] (-) TimerEvent: {}
+[14.797487] (-) TimerEvent: {}
+[14.898163] (-) TimerEvent: {}
+[14.998838] (-) TimerEvent: {}
+[15.099450] (-) TimerEvent: {}
+[15.200115] (-) TimerEvent: {}
+[15.300786] (-) TimerEvent: {}
+[15.401384] (-) TimerEvent: {}
+[15.502061] (-) TimerEvent: {}
+[15.602747] (-) TimerEvent: {}
+[15.703364] (-) TimerEvent: {}
+[15.804046] (-) TimerEvent: {}
+[15.904718] (-) TimerEvent: {}
+[16.005345] (-) TimerEvent: {}
+[16.106032] (-) TimerEvent: {}
+[16.206779] (-) TimerEvent: {}
+[16.307412] (-) TimerEvent: {}
+[16.408070] (-) TimerEvent: {}
+[16.508719] (-) TimerEvent: {}
+[16.609352] (-) TimerEvent: {}
+[16.710036] (-) TimerEvent: {}
+[16.810729] (-) TimerEvent: {}
+[16.911363] (-) TimerEvent: {}
+[17.012043] (-) TimerEvent: {}
+[17.112738] (-) TimerEvent: {}
+[17.213368] (-) TimerEvent: {}
+[17.314058] (-) TimerEvent: {}
+[17.414776] (-) TimerEvent: {}
+[17.515433] (-) TimerEvent: {}
+[17.522942] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/pic2/src/Packages/diffdrive_arduino/hardware/diffbot_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn diffdrive_arduino::DiffDriveArduinoHardware::\x1b[01;32m\x1b[Kon_init\x1b[m\x1b[K(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.523858] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/pic2/src/Packages/diffdrive_arduino/hardware/diffbot_system.cpp:33:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::\x1b[01;32m\x1b[Kon_init\x1b[m\x1b[K(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.524370] (diffdrive_arduino) StderrLine: {'line': b'   33 |     \x1b[01;35m\x1b[Khardware_interface::SystemInterface::on_init(info)\x1b[m\x1b[K !=\n'}
+[17.524831] (diffdrive_arduino) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[17.525263] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18\x1b[m\x1b[K,\n'}
+[17.525669] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/pic2/src/Packages/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:24\x1b[m\x1b[K,\n'}
+[17.526134] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/pic2/src/Packages/diffdrive_arduino/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[17.526533] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[17.526977] (diffdrive_arduino) StderrLine: {'line': b'  140 |   virtual CallbackReturn \x1b[01;36m\x1b[Kon_init\x1b[m\x1b[K(const HardwareInfo & hardware_info);\n'}
+[17.527417] (diffdrive_arduino) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.615632] (-) TimerEvent: {}
+[17.716367] (-) TimerEvent: {}
+[17.817087] (-) TimerEvent: {}
+[17.917788] (-) TimerEvent: {}
+[18.018428] (-) TimerEvent: {}
+[18.119122] (-) TimerEvent: {}
+[18.219803] (-) TimerEvent: {}
+[18.320469] (-) TimerEvent: {}
+[18.421155] (-) TimerEvent: {}
+[18.521797] (-) TimerEvent: {}
+[18.622418] (-) TimerEvent: {}
+[18.723091] (-) TimerEvent: {}
+[18.823747] (-) TimerEvent: {}
+[18.924366] (-) TimerEvent: {}
+[19.025141] (-) TimerEvent: {}
+[19.125787] (-) TimerEvent: {}
+[19.226378] (-) TimerEvent: {}
+[19.327048] (-) TimerEvent: {}
+[19.427659] (-) TimerEvent: {}
+[19.528348] (-) TimerEvent: {}
+[19.629043] (-) TimerEvent: {}
+[19.729671] (-) TimerEvent: {}
+[19.830446] (-) TimerEvent: {}
+[19.931141] (-) TimerEvent: {}
+[20.031944] (-) TimerEvent: {}
+[20.132587] (-) TimerEvent: {}
+[20.233285] (-) TimerEvent: {}
+[20.334016] (-) TimerEvent: {}
+[20.434638] (-) TimerEvent: {}
+[20.535388] (-) TimerEvent: {}
+[20.636126] (-) TimerEvent: {}
+[20.736856] (-) TimerEvent: {}
+[20.837536] (-) TimerEvent: {}
+[20.938256] (-) TimerEvent: {}
+[21.038992] (-) TimerEvent: {}
+[21.139635] (-) TimerEvent: {}
+[21.240337] (-) TimerEvent: {}
+[21.341049] (-) TimerEvent: {}
+[21.441672] (-) TimerEvent: {}
+[21.542365] (-) TimerEvent: {}
+[21.643101] (-) TimerEvent: {}
+[21.743776] (-) TimerEvent: {}
+[21.844407] (-) TimerEvent: {}
+[21.945091] (-) TimerEvent: {}
+[22.045830] (-) TimerEvent: {}
+[22.146786] (-) TimerEvent: {}
+[22.247447] (-) TimerEvent: {}
+[22.348183] (-) TimerEvent: {}
+[22.449005] (-) TimerEvent: {}
+[22.549779] (-) TimerEvent: {}
+[22.650403] (-) TimerEvent: {}
+[22.751096] (-) TimerEvent: {}
+[22.851949] (-) TimerEvent: {}
+[22.952594] (-) TimerEvent: {}
+[23.053314] (-) TimerEvent: {}
+[23.154003] (-) TimerEvent: {}
+[23.254612] (-) TimerEvent: {}
+[23.355253] (-) TimerEvent: {}
+[23.455877] (-) TimerEvent: {}
+[23.556521] (-) TimerEvent: {}
+[23.657193] (-) TimerEvent: {}
+[23.757824] (-) TimerEvent: {}
+[23.858438] (-) TimerEvent: {}
+[23.959146] (-) TimerEvent: {}
+[24.059800] (-) TimerEvent: {}
+[24.160479] (-) TimerEvent: {}
+[24.261430] (-) TimerEvent: {}
+[24.362390] (-) TimerEvent: {}
+[24.463184] (-) TimerEvent: {}
+[24.563886] (-) TimerEvent: {}
+[24.664499] (-) TimerEvent: {}
+[24.765227] (-) TimerEvent: {}
+[24.862534] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[24.865446] (-) TimerEvent: {}
+[24.966132] (-) TimerEvent: {}
+[25.066815] (-) TimerEvent: {}
+[25.167523] (-) TimerEvent: {}
+[25.268349] (-) TimerEvent: {}
+[25.369155] (-) TimerEvent: {}
+[25.470006] (-) TimerEvent: {}
+[25.570852] (-) TimerEvent: {}
+[25.671804] (-) TimerEvent: {}
+[25.772603] (-) TimerEvent: {}
+[25.873517] (-) TimerEvent: {}
+[25.974465] (-) TimerEvent: {}
+[26.075552] (-) TimerEvent: {}
+[26.176412] (-) TimerEvent: {}
+[26.277338] (-) TimerEvent: {}
+[26.378202] (-) TimerEvent: {}
+[26.478909] (-) TimerEvent: {}
+[26.579576] (-) TimerEvent: {}
+[26.617158] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[26.679841] (-) TimerEvent: {}
+[26.689594] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[26.697294] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[26.698499] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/pic2/build/diffdrive_arduino'], 'cwd': '/home/robot/pic2/build/diffdrive_arduino', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.0.0.100 38428 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/pic2/install/rplidar_ros/lib:/home/robot/pic2/install/diffdrive_arduino/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robot/pic2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/pic2/build/diffdrive_arduino', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.100 38428 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/pic2/build/converter_pkg:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/pic2/install/rplidar_ros:/home/robot/pic2/install/diffdrive_arduino:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy'}), 'shell': False}
+[26.763806] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.767309] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.768647] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[26.774753] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[26.776649] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[26.778704] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[26.779947] (-) TimerEvent: {}
+[26.780553] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[26.782758] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[26.784442] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[26.786405] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[26.787355] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[26.788402] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[26.789285] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/urdf/lidar.xacro\n'}
+[26.791077] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[26.791867] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[26.793904] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/bringup_launch.py\n'}
+[26.794640] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[26.795461] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/load_map_demo.launch.py\n'}
+[26.796295] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/localization_launch.py\n'}
+[26.797109] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/navigation_launch.py\n'}
+[26.797916] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/launch/slam_launch.py\n'}
+[26.799572] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[26.800325] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/map_server_params.yaml\n'}
+[26.801124] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/nav2_params.yaml\n'}
+[26.801934] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/config/nav2_params1.yaml\n'}
+[26.803053] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[26.803997] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[26.805189] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[26.810565] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[26.811751] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[26.812993] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[26.814251] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[26.815458] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[26.816613] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[26.817778] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[26.818944] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[26.820095] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[26.820882] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[26.880138] (-) TimerEvent: {}
+[26.887024] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[26.888210] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[26.889309] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.890306] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.891295] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[26.892115] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[26.893129] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[26.898303] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robot/pic2/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[26.906559] (diffdrive_arduino) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/pic2/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[26.913308] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[26.914049] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robot/pic2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[26.923112] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[26.980268] (-) TimerEvent: {}
+[27.007432] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[27.011128] (-) EventReactorShutdown: {}

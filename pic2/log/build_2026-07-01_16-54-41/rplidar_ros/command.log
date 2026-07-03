@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/pic2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/robot/pic2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/pic2/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/robot/pic2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/rplidar_ros
+Invoked command in '/home/robot/pic2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/pic2/install/converter_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/pic2/build/rplidar_ros

@@ -1,0 +1,17 @@
+[5.228s] Invoking command in '/home/robot/pic2/build/converter_pkg': PYTHONPATH=/home/robot/pic2/build/converter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/pic2/build/converter_pkg/build --no-deps symlink_data
+[6.791s] running develop
+[7.854s] running egg_info
+[7.944s] writing converter_pkg.egg-info/PKG-INFO
+[7.945s] writing dependency_links to converter_pkg.egg-info/dependency_links.txt
+[7.948s] writing entry points to converter_pkg.egg-info/entry_points.txt
+[7.950s] writing requirements to converter_pkg.egg-info/requires.txt
+[7.950s] writing top-level names to converter_pkg.egg-info/top_level.txt
+[8.140s] reading manifest file 'converter_pkg.egg-info/SOURCES.txt'
+[8.147s] writing manifest file 'converter_pkg.egg-info/SOURCES.txt'
+[8.245s] running build_ext
+[8.246s] Creating /home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages/converter-pkg.egg-link (link to .)
+[8.249s] Installing nav2_cmd_to_arduino script to /home/robot/pic2/install/converter_pkg/lib/converter_pkg
+[8.250s] 
+[8.251s] Installed /home/robot/pic2/build/converter_pkg
+[8.251s] running symlink_data
+[8.414s] Invoked command in '/home/robot/pic2/build/converter_pkg' returned '0': PYTHONPATH=/home/robot/pic2/build/converter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/pic2/install/converter_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/pic2/build/converter_pkg/build --no-deps symlink_data
