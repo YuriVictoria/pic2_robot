@@ -22,7 +22,8 @@ A montagem física do equipamento foi em uma carcaça de vassoura, com duas cerd
 * **Segundo Andar:** É uma caixa preta, a fim de esconder o circuito, que possui toda a alimentação e processamento do sistema, pois onde estão os microcontroladores, baterias e ponte H dos motores.
 * **Terceiro Andar:** Posicionado no topo do chassi. Abriga exclusivamente o sensor LiDAR, de forma a garantir o campo de visão de 360 graus.
 
-<img width="1600" height="1200" alt="Visão Geral do Robô" src="https://github.com/user-attachments/assets/cd16d23d-61c0-4d22-8257-045616442f11" />
+<img width="836" height="631" alt="imagem 1 robo" src="https://github.com/user-attachments/assets/cb0a7a58-1eab-42d3-86ce-d1079b0c754a" />
+
 
 ---
 
@@ -52,18 +53,18 @@ O chassi e adaptações estruturais foram projetados e modelados pela equipe par
 
 Modelo 3D do robô:
 
-<img width="422" height="324" alt="image" src="https://github.com/user-attachments/assets/0d5f8282-7476-4b9b-9e52-32849f486cd8" />
+<img width="422" height="324" alt="imagem 2 modelo3d" src="https://github.com/user-attachments/assets/5d34b263-1708-4de2-a044-2e6736a6fe9a" />
 
 Suportes utilizados para os encoders AS5600:
 
-<img width="422" height="324" alt="image" src="https://github.com/user-attachments/assets/ef062e70-467b-4fc0-8b15-e03249e0766c" />
+<img width="1920" height="858" alt="Imagem 3 suporteEncoder" src="https://github.com/user-attachments/assets/46d38164-ff3e-4d11-9eea-f5dda80c58ff" />
 
 Arquivo de Impressão stl: suporteAS5600_impressao.stl
 
 
 Suportes com o motor:
 
-<img width="422" height="324" alt="image" src="https://github.com/user-attachments/assets/e12bc51b-05a3-422b-a1e1-ba308de2acfb" />
+<img width="1920" height="858" alt="imagem 4 suporteComMotor" src="https://github.com/user-attachments/assets/addf712e-41e4-43d5-83bb-ec66b68d1fcc" />
 
 
 
@@ -73,7 +74,8 @@ Arquivo de impressão: engrenagens-38-39-40_impressao.stl
 
 #### 2.1.3. Projeto Eletrônico e Placas
 
-<img width="939" height="697" alt="image" src="https://github.com/user-attachments/assets/51fae2ed-fab0-4a84-9e24-cb469b503f96" />
+<img width="939" height="697" alt="Imagem 5 fluxograma" src="https://github.com/user-attachments/assets/74c66dff-a6d2-44a6-925d-6e5c5c94144b" />
+
 
 Este é o projeto deste trabalho, como a succção não foi possível realizar, ela não consta neste projeto, mas basta adicionar um relé do arduíno para o aspirador portátil.
 
@@ -102,7 +104,7 @@ O funcionamento do sistema é feito pelo ROS2 Jazzy em Ubuntu Server 24.04, coor
 
 A comunicação é feita pela publicação dos dados e consumo desses dados por tópicos, o ROS2 administra essas informações para fazer o controle desejado. Com relação a navegação, basicamente no algoritmo dizemos que obstáculos possuem custo alto e o chão custo baixo, logo a trajetória a ser calculada é para evitar colisão com os obstáculos. Os código estão organizados no repositório do github.
 
-<img width="1600" height="1200" alt="Fluxo ROS2 e Hardware" src="https://github.com/user-attachments/assets/a6db8a2f-5667-43e6-a198-caf15bff9193" />
+<img width="1600" height="1200" alt="Imagem 6 visaoInternaRobo" src="https://github.com/user-attachments/assets/567cf744-f28a-4de8-8776-3bf086747fef" />
 
 
 
