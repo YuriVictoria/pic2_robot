@@ -7,6 +7,7 @@
 [![RPLIDAR](https://img.shields.io/badge/RPLIDAR-purple.svg)](https://slamtec.com/en/lidar/a2/)
 
 **Repositório Público:** [Github](https://github.com/YuriVictoria/pic2_robot).
+**Repositório do projeto base:** [Github](https://github.com/dinishsk/autonomous-mobile-vacuum-cleaning-robot).
 
 **Equipe:** [Edgard](https://github.com/Edluck), [Felipe Carpes](https://github.com/carpesfelipe), [Klarine Silva](https://github.com/klarinemend) e [Yuri Victoria](https://github.com/YuriVictoria).
 
