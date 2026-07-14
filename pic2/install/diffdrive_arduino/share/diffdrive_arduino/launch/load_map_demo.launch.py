@@ -1,1 +1,0 @@
-/home/robot/pic2/src/Packages/diffdrive_arduino/bringup/launch/load_map_demo.launch.py

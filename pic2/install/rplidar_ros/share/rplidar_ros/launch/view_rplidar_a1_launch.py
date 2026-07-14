@@ -1,1 +1,0 @@
-/home/robot/pic2/src/Packages/rplidar_ros2/launch/view_rplidar_a1_launch.py
