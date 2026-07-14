@@ -143,7 +143,7 @@ cd ../../diffdrive_arduino/scripts/
 chmod +x create_udev_rules.sh
 ./create_udev_rules.sh
 ```
-Desconecte e reconecte os cabos USB. Para verificar, utilize: ls -l /dev | grep -E "rplidar|arduino".
+Desconecte e reconecte os cabos USB. Para verificar, utilize: ls -l /dev | grep -E "rplidar|meu_arduino".
 ### 4.4 Execução do Sistema
 Caso ocorram erros de dependência, execute na raiz do workspace:
 ```bash
@@ -154,18 +154,17 @@ Nota: Para testes com o hardware físico (sem simulação), certifique-se de uti
 
 Para iniciar a comunicação com o hardware e a leitura do LiDAR:
 ```bash
-ros2 launch diffdrive_arduino diffbot.launch.py
-ros2 launch rplidar_ros rplidar_a2m12_launch.py
+ros2 launch diffdrive_arduino diffbot.launch.py use_sim_time:=False
 ```
 Para inicializar o algoritmo de Mapeamento (SLAM):
 ```bash
-ros2 launch slam_toolbox online_async_launch.py
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=False
 ```
 Para piloto automático e navegação:
 ```bash
-ros2 launch nav2_bringup navigation_launch.py
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=False
 ```
 Para operação manual (Teleoperação):
 ```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=/diffbot_base_controller/cmd_vel -p stamped:=true -p frame_id:=base_link
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true -p frame_id:=base_link
 ```
